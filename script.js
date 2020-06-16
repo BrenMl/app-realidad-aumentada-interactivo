@@ -7,7 +7,7 @@ window.onload = () => {
 var models = [
     {
         url: './assets/magnemite/scene.gltf',
-        scale: '0.2 0.2 0.2',
+        scale: '0.1 0.1 0.1',
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
         position: '0.15 -0.5 3'
@@ -21,10 +21,10 @@ var models = [
     },
     {
         url: './assets/dragonite/scene.gltf',
-        scale: '0.02 0.02 0.02',
+        scale: '0.002 0.002 0.002',
         rotation: '0 180 0',
         info: 'Dragonite, Lv. 99, HP 150/150',
-        position: '2 -0.5 3'
+        position: '0.15 -0.5 3'
     },
 ];
 
@@ -43,7 +43,8 @@ var setModel = function (model, entity) {
     }
 
     entity.setAttribute('gltf-model', model.url);
-
+    entity.setAttribute('animation-mixer', '');
+    entity.setAttribute('crossOrigin','anonymous');
     const div = document.querySelector('.instructions');
     div.innerText = model.info;
 };
@@ -53,9 +54,6 @@ function renderPlaces() {
     let model = document.createElement('a-entity');
 
     setModel(models[modelIndex], model);
-
-    model.setAttribute('animation-mixer', '');
-    model.setAttribute('crossOrigin','anonymous');
 
     document.querySelector('button[data-action="change"]').addEventListener('click', function () {
         var entity = document.querySelector('a-entity')

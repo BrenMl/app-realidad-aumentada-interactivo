@@ -14,7 +14,7 @@ var models = [
     },
     {
         url: './assets/articuno/scene.gltf',
-        scale: '0.005 0.005 0.005',
+        scale: '0.05 0.05 0.05',
         rotation: '0 180 0',
         info: 'Articuno, Lv. 80, HP 100/10',
         position: '0.15 -0.5 3'

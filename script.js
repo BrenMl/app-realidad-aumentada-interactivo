@@ -56,11 +56,13 @@ function renderPlaces() {
 
     model.setAttribute('animation-mixer', '');
     model.setAttribute('crossOrigin','anonymous');
-        document.querySelector('button[data-action="change"]').addEventListener('click', function () {
-            modelIndex++;
-            var newIndex = modelIndex % models.length;
-            setModel(models[newIndex], entity);
-        });
+
+    document.querySelector('button[data-action="change"]').addEventListener('click', function () {
+        var entity = document.querySelector('a-entity')
+        modelIndex++;
+        var newIndex = modelIndex % models.length;
+        setModel(models[newIndex], entity);
+    });
 
         scene.appendChild(model);
     // });

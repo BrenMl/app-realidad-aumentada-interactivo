@@ -7,7 +7,7 @@ window.onload = () => {
 var models = [
     {
         url: './assets/magnemite/scene.gltf',
-        scale: '0.05 0.05 0.05',
+        scale: '0.2 0.2 0.2',
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
         position: '0.15 -0.5 3'
@@ -24,7 +24,7 @@ var models = [
         scale: '0.02 0.02 0.02',
         rotation: '0 180 0',
         info: 'Dragonite, Lv. 99, HP 150/150',
-        position: '0.15 -0.5 3'
+        position: '0.5 -0.5 3'
     },
 ];
 

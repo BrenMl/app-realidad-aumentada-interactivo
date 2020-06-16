@@ -21,7 +21,7 @@
         vr-mode-ui='enabled: false' 
         embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
-        <a-assets>
+        <a-assets timeout = "10000">
             <a-asset-item id="magnemite" src="./assets/magnemite/scene.gltf" response-type="arraybuffer"></a-asset-item>
             <a-asset-item id="articuno" src="./assets/articuno/scene.gltf" response-type="arraybuffer"></a-asset-item>
             <a-asset-item id="dragonite" src="./assets/dragonite/scene.gltf" response-type="arraybuffer"></a-asset-item>

@@ -56,7 +56,7 @@ function renderPlaces() {
     setModel(models[modelIndex], model);
 
     document.querySelector('button[data-action="change"]').addEventListener('click', function () {
-        var entity = document.querySelector('[gltf-model]')
+        var entity = document.querySelector('a-entity[gltf-model]')
         modelIndex++;
         var newIndex = modelIndex % models.length;
         setModel(models[newIndex], entity);

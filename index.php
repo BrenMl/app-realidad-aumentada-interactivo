@@ -24,8 +24,8 @@
         <a-assets timeout="30000">
             <a-asset-item id="magnemite" src="./assets/magnemite/scene.gltf" response-type="arraybuffer"></a-asset-item>
             <a-asset-item id="articuno" src="./assets/articuno/scene.gltf" response-type="arraybuffer"></a-asset-item>
-            <a-asset-item id="magnemite" src="./assets/dragonite/scene.gltf" response-type="arraybuffer"></a-asset-item>
-      </a-assets>
+            <a-asset-item id="dragonite" src="./assets/dragonite/scene.gltf" response-type="arraybuffer"></a-asset-item>
+        </a-assets>
         <!-- <a-entity  position="0.15 -0.5 3" rotation="0 180 0"  gltf-model="./assets/charmander/model.gltf" scale="2 2 2" animation-mixer crossOrigin="anonymous">
         </a-entity> -->
     <a-camera  position="0 1.2 0"></a-camera>

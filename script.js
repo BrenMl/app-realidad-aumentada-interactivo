@@ -44,7 +44,7 @@ var setModel = function (model, entity) {
 
     entity.setAttribute('gltf-model', model.url);
     entity.setAttribute('animation-mixer', '');
-    entity.setAttribute('crossOrigin','anonymous');
+    // entity.setAttribute('crossOrigin','anonymous');
     const div = document.querySelector('.instructions');
     div.innerText = model.info;
 };

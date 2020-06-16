@@ -55,7 +55,7 @@ function renderPlaces() {
     setModel(models[modelIndex], model);
 
     model.setAttribute('animation-mixer', '');
-
+    model.setAttribute('crossOrigin','anonymous');
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
             modelIndex++;
             var newIndex = modelIndex % models.length;

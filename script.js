@@ -21,7 +21,7 @@ var models = [
     },
     {
         url: './assets/dragonite/scene.gltf',
-        scale: '0.002 0.002 0.002',
+        scale: '0.005 0.002 0.005',
         rotation: '0 180 0',
         info: 'Dragonite, Lv. 99, HP 150/150',
         position: '0.15 -0.5 3'
@@ -56,7 +56,7 @@ function renderPlaces() {
     setModel(models[modelIndex], model);
 
     document.querySelector('button[data-action="change"]').addEventListener('click', function () {
-        var entity = document.querySelector('a-entity')
+        var entity = document.querySelector('[gltf-model]')
         modelIndex++;
         var newIndex = modelIndex % models.length;
         setModel(models[newIndex], entity);

@@ -13,15 +13,15 @@ var models = [
         position: '0.15 -0.5 3'
     },
     {
-        url: './assets/charmander/model.gltf',
-        scale: '2 2 2',
+        url: './assets/articuno/scene.gltf',
+        scale: '0.005 0.005 0.005',
         rotation: '0 180 0',
-        info: 'Charmander',
+        info: 'Articuno, Lv. 80, HP 100/10',
         position: '0.15 -0.5 3'
     },
     {
         url: './assets/dragonite/scene.gltf',
-        scale: '0.005 0.002 0.005',
+        scale: '0.005 0.005 0.005',
         rotation: '0 180 0',
         info: 'Dragonite, Lv. 99, HP 150/150',
         position: '0.15 -0.5 3'

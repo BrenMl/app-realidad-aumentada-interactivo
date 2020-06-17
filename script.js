@@ -6,21 +6,21 @@ window.onload = () => {
 
 var models = [
     {
-        url: '#magnemite',
+        url: './assets/magnemite/scene.gltf',
         scale: '0.1 0.1 0.1',
         info: 'Magnemite, Lv. 5, HP 10/10',
         rotation: '0 180 0',
         position: '0.15 -0.5 3'
     },
     {
-        url: '#articuno',
+        url: './assets/articuno/scene.gltf',
         scale: '0.008 0.008 0.008',
         rotation: '0 180 0',
         info: 'Articuno, Lv. 80, HP 100/10',
         position: '0.15 -0.5 3'
     },
     {
-        url: '#dragonite',
+        url: './assets/dragonite/scene.gltf',
         scale: '0.005 0.005 0.005',
         rotation: '0 180 0',
         info: 'Dragonite, Lv. 99, HP 150/150',
